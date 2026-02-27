@@ -43,7 +43,7 @@ export default function CrisisScreen() {
         body: {
           situation,
           age_group: age,
-          neurotype,
+          neurotype: neurotype.toLowerCase(),
           clarifiedTag
         }
       });
