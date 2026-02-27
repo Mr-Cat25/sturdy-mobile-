@@ -26,4 +26,4 @@ Sturdy is a high-urgency, practical parenting tool that provides on-demand scrip
 ```bash
 cd mobile
 npm install
-npx expo start -c
+npx expo start -c --tunnel
